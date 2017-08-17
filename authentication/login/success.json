@@ -1,0 +1,17 @@
+{
+  "priority": 2,
+  "request": {
+    "method": "POST",
+    "url": "/api/v1/auth/login",
+    "bodyPatterns": [
+      {
+        "equalToJson": "{ \"username\": \"user\", \"password\": \"password\" }"
+      }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": {
+    }
+  }
+}

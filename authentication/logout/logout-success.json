@@ -1,0 +1,11 @@
+{
+    "priority": 2,
+    "request": {
+        "method": "GET",
+        "url": "/api/v1/auth/logout"
+    },
+    "response": {
+        "status": 204
+    }
+    
+}

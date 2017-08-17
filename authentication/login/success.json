@@ -5,13 +5,17 @@
     "url": "/api/v1/auth/login",
     "bodyPatterns": [
       {
-        "equalToJson": "{ \"username\": \"user\", \"password\": \"password\" }"
+        "equalTo": "username=user&password=password"
       }
     ]
   },
   "response": {
     "status": 200,
     "jsonBody": {
+	"id": 1,
+	"username": "user",
+	"role": "COMPANY_USER",
+	"name": "FirstName Lastname"
     }
   }
 }

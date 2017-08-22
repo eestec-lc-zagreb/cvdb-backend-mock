@@ -1,0 +1,36 @@
+{
+  "priority": 2,
+  "request": {
+    "method": "GET",
+    "urlPattern": "/api/v1/users/([0-9]+)/subscriptions"
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": {
+      "content": [
+        {
+          "eventId": 1,
+          "eventName": "EventName1",
+          "subscriptionStart": "2017-08-22T14:00:55+00:00",
+          "subscriptionEnd": "2018-08-22T14:00:55+00:00",
+          "statistics": {
+            "numberOfParticipants": 50,
+            "mostCommonStudyProgramme": "SOFTWARE_ENGINEERING",
+            "mostCommonYear": 3
+          }
+        },
+        {
+          "eventId": 2,
+          "eventName": "EventName2",
+          "subscriptionStart": "2017-05-11T10:00:00+00:00",
+          "subscriptionEnd": "2018-05-11T10:00:00+00:00",
+          "statistics": {
+            "numberOfParticipants": 35,
+            "mostCommonStudyProgramme": "COMPUTER_SCIENCE",
+            "mostCommonYear": 4
+          }
+        }
+      ]
+    }
+  }
+}

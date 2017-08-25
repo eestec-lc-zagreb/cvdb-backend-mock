@@ -13,7 +13,7 @@
           "eventName": "EventName1",
           "subscriptionStart": "2017-08-22T14:00:55+00:00",
           "subscriptionEnd": "2018-08-22T14:00:55+00:00",
-          "statistics": {
+          "eventStatistics": {
             "numberOfParticipants": 50,
             "mostCommonStudyProgramme": "SOFTWARE_ENGINEERING",
             "mostCommonYear": 3
@@ -24,7 +24,7 @@
           "eventName": "EventName2",
           "subscriptionStart": "2017-05-11T10:00:00+00:00",
           "subscriptionEnd": "2018-05-11T10:00:00+00:00",
-          "statistics": {
+          "eventStatistics": {
             "numberOfParticipants": 35,
             "mostCommonStudyProgramme": "COMPUTER_SCIENCE",
             "mostCommonYear": 4

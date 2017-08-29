@@ -13,21 +13,24 @@
           "firstName": "Firstname1",
           "lastName": "Lastname1",
           "year": 5,
-          "studyProgramme": "SOFTWARE_ENGINEERING"
+          "studyProgramme": "SOFTWARE_ENGINEERING",
+          "cv": "http://localhost:1950/cvs/1"
         },
         {
           "id": 2,
           "firstName": "Firstname2",
           "lastName": "Lastname2",
           "year": 3,
-          "studyProgramme": "COMPUTER_SCIENCE"
+          "studyProgramme": "COMPUTER_SCIENCE",
+          "cv": "http://localhost:1950/cvs/2"
         },
         {
           "id": 3,
           "firstName": "Firstname3",
           "lastName": "Lastname3",
           "year": 1,
-          "studyProgramme": "SOFTWARE_ENGINEERING"
+          "studyProgramme": "SOFTWARE_ENGINEERING",
+          "cv": "http://localhost:1950/cvs/3"
         }
       ],
       "last": true,

@@ -1,0 +1,47 @@
+{
+  "priority": 2,
+  "request": {
+    "method": "GET",
+    "urlPattern": "/api/v1/events"
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": {
+      "content": [
+        {
+          "id": 1,
+          "name": "EventName1",
+          "shortName": "EventShortName1",
+          "year": "2016"
+        },
+        {
+          "id": 2,
+          "name": "EventName2",
+          "shortName": "EventShortName2",
+          "year": "2016"
+        },
+        {
+          "id": 3,
+          "name": "EventName3",
+          "shortName": "EventShortName3",
+          "year": "2017"
+        },
+        {
+          "id": 4,
+          "name": "EventName4",
+          "shortName": "EventShortName4",
+          "year": "2017"
+        }
+      ],
+      "last": true,
+      "totalPages": 1,
+      "totalElements": 1,
+      "sort": null,
+      "first": true,
+      "numberOfElements": 1,
+      "size": 20,
+      "number": 0
+    }
+  }
+}
+

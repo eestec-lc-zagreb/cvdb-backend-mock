@@ -1,0 +1,11 @@
+{
+  "priority": 2,
+  "request": {
+    "method": "PUT",
+    "urlPattern": "/api/v1/users/[0-9]+"
+  },
+  "response": {
+    "status": 204
+  }
+}
+

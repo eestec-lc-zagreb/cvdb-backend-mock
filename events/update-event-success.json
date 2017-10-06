@@ -1,0 +1,19 @@
+{
+  "priority": 1,
+  "request": {
+    "method": "PUT",
+    "urlPattern": "/api/v1/events/[0-9]+"
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": {
+      "content": {
+        "id": 1,
+        "name": "UpdatedEventName",
+        "shortName": "UpdatedEventShortName",
+        "year": "2017"
+      }
+    }
+  }
+}
+

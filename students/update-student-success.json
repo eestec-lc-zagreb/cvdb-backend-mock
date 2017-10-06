@@ -1,7 +1,7 @@
 {
-  "priority": 2,
+  "priority": 1,
   "request": {
-    "method": "GET",
+    "method": "PUT",
     "urlPattern": "/api/v1/students/[0-9]+"
   },
   "response": {
@@ -14,10 +14,7 @@
         "year": 5,
         "studyProgramme": "SOFTWARE_ENGINEERING",
         "createdAt": "2017-08-22T14:00:55+00:00",
-        "modifiedAt": "2017-08-22T14:00:55+00:00",
-        "statistics": {
-          "numberOfEvents": 3
-        }
+        "modifiedAt": "2017-08-22T14:00:55+00:00"
       }
     }
   }

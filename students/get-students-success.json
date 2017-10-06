@@ -13,27 +13,21 @@
           "firstName": "Firstname1",
           "lastName": "Lastname1",
           "year": 5,
-          "studyProgramme": "SOFTWARE_ENGINEERING",
-          "createdAt": "2017-08-22T14:00:55+00:00",
-          "modifiedAt": "2017-08-22T14:00:55+00:00"
+          "studyProgramme": "SOFTWARE_ENGINEERING"
         },
         {
           "id": 2,
           "firstName": "Firstname2",
           "lastName": "Lastname2",
           "year": 3,
-          "studyProgramme": "COMPUTER_SCIENCE",
-          "createdAt": "2017-08-23T14:00:55+00:00",
-          "modifiedAt": "2017-08-23T14:00:55+00:00"
+          "studyProgramme": "COMPUTER_SCIENCE"
         },
         {
           "id": 3,
           "firstName": "Firstname3",
           "lastName": "Lastname3",
           "year": 1,
-          "studyProgramme": "SOFTWARE_ENGINEERING",
-          "createdAt": "2017-08-24T14:00:55+00:00",
-          "modifiedAt": "2017-08-24T14:00:55+00:00"
+          "studyProgramme": "SOFTWARE_ENGINEERING"
         }
       ],
       "last": true,

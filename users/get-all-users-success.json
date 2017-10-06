@@ -1,0 +1,59 @@
+{
+  "priority": 2,
+  "request": {
+    "method": "GET",
+    "urlPattern": "/api/v1/users"
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": {
+      "content": [
+        {
+          "id": 1,
+          "name": "Firstname Lastname",
+          "username": "firstname.lastname",
+          "role": "ADMINISTRATOR",
+          "active": true,
+          "createdAt": "2017-08-22T14:00:55+00:00",
+          "modifiedAt": "2017-08-22T14:00:55+00:00"
+        },
+        {
+          "id": 1,
+          "name": "Firstname Lastname",
+          "username": "firstname.lastname",
+          "role": "USER",
+          "active": true,
+          "createdAt": "2017-08-22T14:00:55+00:00",
+          "modifiedAt": "2017-08-22T14:00:55+00:00"
+        },
+        {
+          "id": 1,
+          "name": "Firstname Lastname",
+          "username": "firstname.lastname",
+          "role": "USER",
+          "active": true,
+          "createdAt": "2017-08-22T14:00:55+00:00",
+          "modifiedAt": "2017-08-22T14:00:55+00:00"
+        },
+        {
+          "id": 1,
+          "name": "Firstname Lastname",
+          "username": "firstname.lastname",
+          "role": "USER",
+          "active": true,
+          "createdAt": "2017-08-22T14:00:55+00:00",
+          "modifiedAt": "2017-08-22T14:00:55+00:00"
+        }
+      ],
+      "last": true,
+      "totalPages": 1,
+      "totalElements": 1,
+      "sort": null,
+      "first": true,
+      "numberOfElements": 1,
+      "size": 20,
+      "number": 0
+    }
+  }
+}
+

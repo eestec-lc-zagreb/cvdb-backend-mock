@@ -1,0 +1,22 @@
+{
+  "priority": 1,
+  "request": {
+    "method": "POST",
+    "urlPattern": "/api/v1/users"
+  },
+  "response": {
+    "status": 201,
+    "jsonBody": {
+      "content": {
+        "id": 1,
+        "name": "Firstname Lastname",
+        "username": "firstname.lastname",
+        "role": "USER",
+        "active": true,
+        "createdAt": "2017-08-22T14:00:55+00:00",
+        "modifiedAt": "2017-08-22T14:00:55+00:00"
+      }
+    }
+  }
+}
+

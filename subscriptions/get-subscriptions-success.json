@@ -2,7 +2,7 @@
   "priority": 1,
   "request": {
     "method": "GET",
-    "urlPattern": "/api/v1/users/([0-9]+)/subscriptions"
+    "urlPattern": "/api/v1/subscriptions"
   },
   "response": {
     "status": 200,

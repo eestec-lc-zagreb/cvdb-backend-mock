@@ -5,7 +5,7 @@
         "url": "/api/v1/auth/logout"
     },
     "response": {
-        "status": 204
+        "status": 200
     }
     
 }

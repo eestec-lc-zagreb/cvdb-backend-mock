@@ -1,0 +1,22 @@
+{
+  "priority": 1,
+  "request": {
+    "method": "GET",
+    "urlPattern": "/api/v1/subscriptions/[0-9]+"
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": {
+      "id": 1,
+      "userId": 1,
+      "name": "Name1",
+      "username": "name1",
+      "eventId": 1,
+      "eventName": "EventName1",
+      "eventYear": "2017",
+      "subscriptionStart": "2017-09-22T14:00:55+00:00",
+      "subscriptionEnd": "2018-09-22T14:00:55+00:00"
+    }
+  }
+}
+

@@ -1,0 +1,55 @@
+{
+  "priority": 1,
+  "request": {
+    "method": "GET",
+    "urlPattern": "/api/v1/users/([0-9]+)/subscriptions"
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": {
+      "content": [
+        {
+          "id": 1,
+          "userId": 1,
+          "name": "Name1",
+          "username": "name1",
+          "eventId": 1,
+          "eventName": "EventName1",
+          "eventYear": "2017",
+          "subscriptionStart": "2017-09-22T14:00:55+00:00",
+          "subscriptionEnd": "2018-09-22T14:00:55+00:00"
+        },
+        {
+          "id": 2,
+          "userId": 1,
+          "name": "Name1",
+          "username": "name1",
+          "eventId": 2,
+          "eventName": "EventName2",
+          "eventYear": "2017",
+          "subscriptionStart": "2017-10-24T14:00:55+00:00",
+          "subscriptionEnd": "2018-10-24T14:00:55+00:00"
+        },
+        {
+          "id": 3,
+          "userId": 2,
+          "name": "Name2",
+          "username": "name2",
+          "eventId": 1,
+          "eventName": "EventName1",
+          "eventYear": "2017",
+          "subscriptionStart": "2017-10-24T14:00:55+00:00",
+          "subscriptionEnd": "2018-10-24T14:00:55+00:00"
+        }
+      ],
+      "last": true,
+      "totalPages": 1,
+      "totalElements": 1,
+      "sort": null,
+      "first": true,
+      "numberOfElements": 1,
+      "size": 20,
+      "number": 0
+    }
+  }
+}
